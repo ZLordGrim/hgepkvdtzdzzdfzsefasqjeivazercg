@@ -1,0 +1,14 @@
+# General trading bot configurations
+trading:
+  ticker: "AAPL"           # Stock ticker to trade
+  start_date: "2020-01-01" # Start date for historical data fetching
+  interval: 3600           # Interval in seconds for bot execution
+
+# Portfolio configurations
+portfolio:
+  initial_cash: 100000     # Initial cash in the portfolio
+
+# Additional optional configurations (you can uncomment if needed)
+# logging:
+#   level: "INFO"          # Logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+#   file: "trading-bot.log" # Log file name
